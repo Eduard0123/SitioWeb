@@ -1,0 +1,71 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 { font-size: 66px; font-weight: 600; line-height: 80px;}
+h2 { font-size: 48px; margin-bottom: 30px;}
+p {
+    font-size: 18px;
+    color: gray;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.topmargin-xs {margin-top: 60px;}
+.topmargin-sm {margin-top: 30px;}
+.topmargin-lg {margin-top: 60px;}
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link { color: #1a1a1a;}
+.nav-link:hover { color: #1a1a1a;}
+
+.logo-brand {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.navbar-toggler { font-size: 40px;}
+.navbar-toggler:focus {outline: none;}
+
+#hero {
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 550px;
+    color: #ffffff;
+}
+
+#hero p {
+    color: #ffffff;
+
+}
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+
+@media (max-width: 575.98px) { 
+    h1 {font-size: 40px; line-height: normal;}
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
